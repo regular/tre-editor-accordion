@@ -16,5 +16,30 @@
   "bugs": {
     "url": "https://github.com/regular/tre-editor-accordion/issues"
   },
-  "homepage": "https://github.com/regular/tre-editor-accordion#readme"
+  "homepage": "https://github.com/regular/tre-editor-accordion#readme",
+  "dependencies": {
+    "collect-mutations": "^1.0.6",
+    "module-styles": "^1.0.0",
+    "mutant": "^3.29.0",
+    "pull-stream": "^3.6.14",
+    "tre-client": "^4.1.0",
+    "tre-editor-shell": "^1.6.1",
+    "tre-prototypes": "^1.9.0"
+  },
+  "tre-import": {
+    "messages": {
+      "one": {
+        "type": "foo",
+        "name": "one"
+      },
+      "two": {
+        "type": "foo",
+        "name": "two"
+      },
+      "three": {
+        "type": "foo",
+        "name": "three"
+      }
+    }
+  }
 }
